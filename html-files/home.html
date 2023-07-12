@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GKEMHCS</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Semantic UI CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+        background: linear-gradient(to right, #000000,#E100FF);
+    }
+
+    /* Navbar Styles */
+    .navbar {
+      background: linear-gradient(135deg, #2980b9, #6dd5fa);
+      color: #fff;
+    }
+    .navbar .navbar-brand {
+      color: #fff;
+      font-weight: bold;
+    }
+    .navbar .nav-link {
+      color: #fff;
+      margin-right: 15px;
+    }
+    .navbar .nav-link:hover {
+      color: #ddd;
+    }
+
+    /* Header Styles */
+    .header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 50px 0;
+    }
+    .header h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .header p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .header .btn-primary {
+      background: linear-gradient(135deg, #ff416c, #ff4b2b);
+      border-color: #ff4b2b;
+      font-weight: bold;
+    }
+    .header .btn-primary:hover {
+      background: linear-gradient(135deg, #ff416c, #ff4b2b);
+      border-color: #ff4b2b;
+    }
+
+    /* Body Styles */
+    .section {
+      background-color: #fff;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .section h2 {
+      margin-bottom: 20px;
+    }
+    .section.shaded {
+      background-color: #f9f9f9;
+    }
+
+    /* Profile Photo Styles */
+    .profile-photo {
+      width: 200px;
+      height: 200px;
+      border: 10px solid #ddd;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    .profile-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Footer Styles */
+    .footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 0;
+    }
+    .footer a {
+      color: #fff;
+      margin-right: 10px;
+    }
+    .footer .fab {
+      font-size: 24px;
+      margin-right: 5px;
+    }
+
+    /* Button Styles */
+    .btn-custom {
+      background: linear-gradient(135deg, #ff416c, #ff4b2b);
+      border-color: #ff4b2b;
+      color: #fff;
+      font-weight: bold;
+    }
+    .btn-custom:hover {
+      background: linear-gradient(135deg, #ff416c, #ff4b2b);
+      border-color: #ff4b2b;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md">
+    <div class="container">
+      <a class="navbar-brand" href="#">GKEMHCS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experiments.html">Crazy Experiments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="certificates.html">Certificates</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1>Welcome to My WORLD</h1>
+      <p>A place to showcase my work</p>
+      <a href="#cap" class="btn btn-primary btn-custom">Learn More</a>
+    </div>
+  </header>
+
+  <!-- Body -->
+  <section class="section shaded">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <!-- Profile Section -->
+          <div class="profile-photo">
+            <img src="images/me.jpg" alt="Profile Photo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-8">
+          <!-- Details Section -->
+          <h2>My Details</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae nulla et enim consectetur tristique.</p>
+          <!-- Education Section -->
+          <h2>Education</h2>
+          <div class="education-section">
+          
+            <div class="college">
+              <h3>RGUKT RKVALLEY,IDUPULAPAYA,ANDHRA PRADESH,INDIA</h3>
+              <h4>Bachelor Of Technology in COMPUTER SCIENCE AND ENGINEERING</h4>
+              <p>From 2019 to 2021</p>
+            </div>
+          </div>
+          <!-- Skills Section -->
+          <h2>Skills</h2>
+          <ul class="ui list">
+            <li>GOOGLE CLOUD</li>
+            <li>CLOUD ENGINEERING</li>
+            <li>CLOUD DEVELOPMENT</li>
+            <li>ClOUD NATIVE </li>
+            <li>EVENT DRIVEN DEVELOPMENT IN GCP</li>
+            <li>SERVERLESS DEVELOPMENT</li>
+            <li>CI-CD IN GOOGLE CLOUD</li>
+            <li>NODEJS</li>
+            <li>SOFTWARE SUPPLY CHAIN IN GCP</li>
+            <li>ANTHOS</li>
+            <!-- Add more skills here -->
+          </ul>
+          <!-- Capabilities Section -->
+          <h2 id="cap">Capabilities</h2>
+          <p> CAN IMPLEMENT EVENT DRIVEN ARCHITECTURE IN GOOGLE CLOUD </p>
+          <p>CAN PROFICIENTLY DESIGN SERVERLESS DEVELOPMENT AND INTEGRATIONS 
+          </p>
+          <p>I CAN DEPLOY  CLOUD-NATIVE BASED DEPLOYMENTS IN GOOGLE CLOUD 
+          </p>
+          <p>ALSO EFFICIENT AT DEPLOYING  THROUGH INFRASTRUCTURE AS CODE THROUGH TERRAFORM
+          </p>
+          <p>GOOD AT IMPLEMENTING CI/CD  THROUGH CLOUDBUILD AND CLOUD DEPLOY
+          </p>
+          <p>ALSO GOOD AT ANTHOS ,HYBRID CLOUD OF GCP</p>
+          <p>GOOD AT  IMPLEMENTING PAAS AND IAAS IN GCP</p>
+          <p></p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container text-center">
+      <a href="https://www.linkedin.com/in/gkemhcs"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Gkemhcs"><i class="fab fa-github"></i></a>
+     
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- Semantic UI JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.	min.js"></script>
+  <!-- Font Awesome JS -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script>
+    // Add your custom JavaScript code here
+  </script>
+</body>
+</html>

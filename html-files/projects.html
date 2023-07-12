@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GKEMHCS PORTFOLIO</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    /* Navbar Styles */
+    .navbar {
+      background-color: #333;
+      color: #fff;
+    }
+
+    .navbar .navbar-brand {
+      font-weight: bold;
+    }
+
+    .navbar .nav-link {
+      color: #fff;
+      margin-right: 15px;
+    }
+
+    .navbar .nav-link:hover {
+      color: #ddd;
+    }
+
+    /* Main Content Styles */
+    .container {
+      padding: 40px 0;
+    }
+
+    .project-block {
+      background-color: #fff;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-name {
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .tools-used {
+      margin-bottom: 20px;
+    }
+
+    .tools-used h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .tools-used ul {
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+    }
+
+    .tools-used li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .see-project-button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .see-project-button:hover {
+      background-color: #000;
+    }
+
+    /* Footer Styles */
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #fff;
+      margin-right: 10px;
+    }
+
+    .footer .fab {
+      font-size: 24px;
+      margin-right: 5px;
+    }
+    a{
+  text-decoration: none;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md">
+    <div class="container">
+      <a class="navbar-brand" href="#">GKEMHCS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="certificates.html">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experiments.html">Crazy Experiments</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<center><h1>MY PROJECTS</h1></center>
+  <!-- Main Content -->
+  <div class="container">
+    <div class="project-block">
+      <h2 class="project-name">CREATED ECOMMERCE WEBSITE NAMED VIKRETHA COMPRISED OF MICROSERVICES</h2>
+      <div class="tools-used">
+        <h3>Tools Used:</h3>
+        <ul>
+          <li>GOOGLE KUBERNETES ENGINE</li>
+          <li>ANTHOS SERVICE MESH
+          </li>
+          <li>MICROSERVICES ARCHITECTURE
+          </li>
+          <li>CLOUD FUNCTIONS 
+          </li>
+          <li>CLOUD SQL
+          </li>
+          <li>CLOUD PUBSUB</li>
+          <li>ISTIO AUTHENTCATION AND AUTHORIZATION POLICY</li>
+          <li>ISTIO INGRESS GATEWAY</li>
+        </ul>
+      </div>
+      <button class="see-project-button"><a href="https://github.com/Gkemhcs/vikretha-ecommerce-gcp.git" target="_blank">See Project</a></button>
+    </div>
+
+    <div class="project-block">
+      <h2 class="project-name">PHOTO GALLERY SERVERLESS </h2>
+      <div class="tools-used">
+        <h3>Tools Used:</h3>
+        <ul>
+         <li>CLOUD RUN</li>
+         <li>CLOUD FIRESTORE</li>
+         <li>VISION API </li>
+         <li>EVENTARC</li>
+        </ul>
+      </div>
+      <button class="see-project-button"><a href="https://github.com/Gkemhcs/photo-gallery-gcp-serverless.git" target="_blank">See Project</a></button>
+    </div>
+
+   
+  <div class="project-block">
+    <h2 class="project-name">BLOGGING-WEBSITE-GKE</h2>
+    <div class="tools-used">
+      <h3>Tools Used:</h3>
+      <ul>
+       <li>GOOGLE KUBERNETES ENGINE</li>
+       <li>CLOUD KMS</li>
+       <li>GCS-FUSE-CSI-DRIVER FOR GKE</li>
+       <li>CLOUD SQL</li>
+      </ul>
+    </div>
+    <button class="see-project-button"><a href="https://github.com/Gkemhcs/bloggingapp-gcp-gke.git" target="_blank">See Project</a></button>
+  </div>
+</div>
+<div class="project-block">
+  <h2 class="project-name">SOFTWARE SUPPLY CHAIN -THROUGH CI-CD</h2>
+  <div class="tools-used">
+    <h3>Tools Used:</h3>
+    <ul>
+      <li>CLOUD BUILD
+      </li>
+      <li>BINARY AUTHORIZATION</li>
+      <li>CLOUD KMS</li>
+      <li>CLOUD DEPLOY</li>
+      <li>GOOGLE KUBERNETES ENGINE</li>
+     
+    </ul>
+  </div>
+  <button class="see-project-button"><a href="https://github.com/Gkemhcs/software-supply-chain-demo.git" target="_blank">See Project</a></button>
+</div>
+</div>
+<div class="project-block">
+  <h2 class="project-name">API-DEVELOPMENT-THROUGH CLOUD ENDPOINTS</h2>
+  <div class="tools-used">
+    <h3>Tools Used:</h3>
+    <ul>
+     <li>CLOUD ENDPOINTS</li>
+     <li>CLOUD RUN</li>
+    </ul>
+  </div>
+  <button class="see-project-button"><a href="https://github.com/Gkemhcs/cloud-endpoints-cloudrun-gcp-.git" target="_blank">See Project</a></button>
+</div>
+</div>
+<div class="project-block">
+  <h2 class="project-name">SIMPLE TODO APP IN GCE INSTANCE</h2>
+  <div class="tools-used">
+    <h3>Tools Used:</h3>
+    <ul>
+    <li>COMPUTE ENGINE </li>
+    </ul>
+  </div>
+  <button class="see-project-button"><a href="https://github.com/Gkemhcs/todo-gce-simple.git" target="_blank">See project</a></button>
+</div>
+</div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <a href="https://www.linkedin.com/in/gkemhcs"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Gkemhcs"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
